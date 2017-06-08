@@ -1,0 +1,35 @@
+#otrainfo {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#otrainfo .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.otrainfo-serv img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.otrainfo-serv{
+    margin: 15;
+}
+
+@media (min-width:480px) {
+    .otrainfo-serv {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px) {
+    .otrainfo-serv {
+        width:auto;
+    }
+}

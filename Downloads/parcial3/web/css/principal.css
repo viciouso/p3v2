@@ -1,0 +1,34 @@
+body{
+    background-color: #e5e8e8;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.principal{
+    width: 100%;
+    margin: 0;
+}
+.encabezado{
+    width:100%;
+    margin-top: 15px;
+    background-color: #1f618d;
+    height: 50px;
+}
+.encabezado div
+{
+    float: left;
+}
+
+.pie{
+    background-color: #1f618d;
+    text-align: center;
+}
+
+.contenido{
+    width: 100% - 10px;
+    padding: 1px 1px;
+    border:1px solid #CED5D7;
+    resize: none;
+    box-shadow: 0 3px 0 3px #EEF5F7;
+    margin: 1px 0;
+}

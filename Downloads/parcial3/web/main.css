@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/05/2017, 09:48:50 AM
+    Author     : Alumnos
+*/
+
+.contenedor
+{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+body
+{
+    background-color: rgba(51, 51, 51, 0.5);
+}
+.caja
+{
+    border: 3px solid;
+    border-style: dotted;
+    background: #BBBBBB;
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px;
+    box-sizing: border-box;
+    
+}
+@media screen and (max-width: 800px)
+{
+    .contenedor
+    {
+        width: 100%;
+    }
+    .caja
+    {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .contenedor
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .caja
+    {
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+}
